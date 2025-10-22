@@ -1,0 +1,25 @@
+@use "../../style.scss" as *;
+
+window#bar {
+  background: transparent;
+  color: $text;
+  font-weight: bold;
+  > .centerbox {
+    border-radius: 20px;
+    margin: 8px;
+    background: $base;
+    > .start {
+      // Workspaces!!
+      background: $base;
+      border-radius: 20px;
+      // margin: 8px;
+      > .time {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+    }
+    > .center {
+      background: $base;
+    }
+  }
+}

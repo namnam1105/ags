@@ -1,0 +1,17 @@
+@use "../../../style.scss" as *;
+
+.mediamodule {
+  margin-right: 2px;
+  > button {
+    border: $base 2px solid;
+    background: $surface0;
+    margin: 0;
+    border-radius: 15px;
+    > .icon {
+      font-family: $font1;
+    }
+  }
+  > button:hover {
+    background: $surface1;
+  }
+}

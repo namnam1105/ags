@@ -1,0 +1,23 @@
+@use "../../../style.scss" as *;
+
+.Workspaces {
+  margin: 0;
+  border-radius: 15px;
+  border: $base 2px solid;
+  background: $surface0;
+  > button {
+    background: $surface0;
+    border-radius: 50%;
+    margin-left: 8px;
+    padding: 0px;
+    min-height: 34px;
+    min-width: 34px;
+  }
+  > button.active {
+    background: $text;
+    color: $base;
+  }
+  > button:nth-child(1) {
+    margin-left: 0px;
+  }
+}

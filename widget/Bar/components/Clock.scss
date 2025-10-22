@@ -1,0 +1,8 @@
+@use "../../../style.scss" as *;
+.clock {
+  margin-left: 2px;
+  padding: 0 8px;
+  border-radius: 15px;
+  border: $base 2px solid;
+  background: $surface0;
+}
